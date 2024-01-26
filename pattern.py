@@ -7,5 +7,11 @@
 
 # Pseudocode
 
+# indicate how many rows needed
+rows = 5
 # create a for loop for the pattern
+for i in range(1, rows + 1):
+    for _ in range(i):
+        print(i, end=" ")
 # print the result
+    print()
